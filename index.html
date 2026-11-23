@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Дмитро Калакун</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+footer {
+background-color: #0f172a;
+color: #94a3b8;
+text-align: center;
+padding: 20px;
+font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+<header id="main-header">
+<div class="header-top">
+<button id="theme-toggle" class="theme-btn">🌙 Нічний режим</button>
+</div>
+<h1 style="letter-spacing: 2px;">ДМИТРО КАЛАКУН</h1>
+<p>Студент спеціальності «Кібербезпека»</p>
+</header>
+<main>
+<section class="card">
+<h2>Особиста інформація</h2>
+<ul>
+<li>Місто: Львів</li>
+<li>Телефон: 0685899841</li>
+<li>
+E-mail:
+<a href="mailto:Dmytro.Kalakun.KB.2025@lpnu.ua">
+Dmytro.Kalakun.KB.2025@lpnu.ua
+</a>
+</li>
+</ul>
+</section>
+<section class="card">
+<h2>Про себе</h2>
+<p>
+Студент 2 курсу Національного університету «Львівська політехніка» за
+спеціальністю
+«Кібербезпека». Цікавлюся інформаційними технологіями, програмуванням
+та захистом
+комп'ютерних систем. Під час навчання здобуваю теоретичні знання та
+практичні
+навички у сфері інформаційної безпеки, вебпрограмування та роботи з
+базами даних.
+</p>
+</section>
+<section class="card">
+<h2>Освіта</h2>
+<ul>
+<li>Національний університет «Львівська політехніка»</li>
+<li>Спеціальність: Кібербезпека</li>
+<li>Курс: 2</li>
+</ul>
+</section>
+<section class="card">
+<h2>Професійні навички</h2>
+<ul>
+<li>Основи програмування на Python</li>
+<li>Основи HTML та CSS</li>
+<li>Робота у Visual Studio Code</li>
+<li>Основи роботи з базами даних</li>
+<li>Основи інформаційної безпеки</li>
+4
+</ul>
+</section>
+<section class="card full-width">
+<h2>Досвід роботи</h2>
+<p>
+Комерційного досвіду роботи поки що немає. Здобуваю практичні навички
+під час
+навчання та виконання навчальних проєктів.
+</p>
+</section>
+<section class="card full-width">
+<h2>Відгуки попередніх роботодавців (Варіант 12)</h2>
+<div id="comments-container" class="comments-grid">
+<p>Завантаження коментарів...</p>
+</div>
+</section>
+</main>
+<div id="feedback-modal" class="modal-overlay hidden">
+<div class="modal-content">
+<div class="modal-header">
+<h2>Зворотний зв'язок</h2>
+<button id="close-modal" class="close-btn">&times;</button>
+</div>
+<form action="https://formspree.io/f/mpppyddl" method="POST"
+class="feedback-form">
+<label>Ім'я:
+<input type="text" name="name" required placeholder="Введіть ваше
+ім'я">
+</label>
+<label>Email:
+<input type="email" name="email" required
+placeholder="example@mail.com">
+</label>
+<label>Номер телефону:
+<input type="tel" name="phone" required placeholder="+380...">
+</label>
+<label>Повідомлення:
+<textarea name="message" rows="4" required placeholder="Ваш
+текст..."></textarea>
+</label>
+<button type="submit" class="submit-btn">Надіслати</button>
+</form>
+</div>
+</div>
+<footer>
+<p>© 2026 Дмитро Калакун</p>
+<div id="storage-info" class="storage-box"></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
